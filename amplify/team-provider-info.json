@@ -1,0 +1,46 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-todoapp-staging-52413-authRole",
+      "UnauthRoleArn": "arn:aws:iam::990176535765:role/amplify-todoapp-staging-52413-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::990176535765:role/amplify-todoapp-staging-52413-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-todoapp-staging-52413-deployment",
+      "UnauthRoleName": "amplify-todoapp-staging-52413-unauthRole",
+      "StackName": "amplify-todoapp-staging-52413",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:990176535765:stack/amplify-todoapp-staging-52413/17737120-dce0-11ed-87e3-06f51c827010",
+      "AmplifyAppId": "d3mq257el7zh5y"
+    },
+    "categories": {
+      "auth": {
+        "TodoApp": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-project1-dev-110607-authRole",
+      "UnauthRoleArn": "arn:aws:iam::990176535765:role/amplify-project1-dev-110607-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::990176535765:role/amplify-project1-dev-110607-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-project1-dev-110607-deployment",
+      "UnauthRoleName": "amplify-project1-dev-110607-unauthRole",
+      "StackName": "amplify-project1-dev-110607",
+      "StackId": "arn:aws:cloudformation:sa-east-1:990176535765:stack/amplify-project1-dev-110607/cff06230-dccc-11ed-9787-0a8ea2ae0890",
+      "AmplifyAppId": "d1khcqi3zkldto"
+    }
+  },
+  "todoapp": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-project1-todoapp-115858-authRole",
+      "UnauthRoleArn": "arn:aws:iam::990176535765:role/amplify-project1-todoapp-115858-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::990176535765:role/amplify-project1-todoapp-115858-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-project1-todoapp-115858-deployment",
+      "UnauthRoleName": "amplify-project1-todoapp-115858-unauthRole",
+      "StackName": "amplify-project1-todoapp-115858",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:990176535765:stack/amplify-project1-todoapp-115858/2f650340-dcd4-11ed-a923-0a45ca4067e4",
+      "AmplifyAppId": "d1vluswjk48r0p"
+    }
+  }
+}

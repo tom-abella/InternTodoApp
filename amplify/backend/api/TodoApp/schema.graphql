@@ -1,0 +1,12 @@
+type CompletedTask @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Task: String
+  Deadline: String
+}
+
+type TodoTask @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Task: String
+  Deadline: String
+}
+ 
